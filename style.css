@@ -1,0 +1,395 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Oswald:wght@400;500;700&display=swap'); 
+ @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bangers&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    
+
+    font-family: 'Bangers', sans-serif; 
+
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    max-width: 50vw;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+    color: white;
+
+}
+
+body {
+    background-color: rgb(31 32 124);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-space {
+    padding: 15px;
+}
+
+nav {
+    padding: 15px;
+}
+
+.nav-text {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-text h5{
+    margin: 5px;
+    font-size: 1.5em;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links p {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #bb42bd;
+}
+.links img {
+    margin: 5px;
+    height: 25px;
+}
+
+h1 {
+    font-size: 3em;
+    color: #ffffff;
+    letter-spacing: 1.3px;
+
+}
+
+h5 {
+    font-size: 1em;
+}
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: url(images/pandahero.png);
+    background-position-y: center;
+    min-height: 90vh;
+    /* margin-top: -160px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero img {
+    margin-top: 50px;
+    width: 300px;
+    animation: updownfast 4s linear infinite;
+    border-radius: 10px;
+}
+
+.comic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.team-members {
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.roadmap {
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #1a1a1a;
+}
+
+.right-roadmap img {
+    width: 400px;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.left-roadmap {
+    text-align: center;
+}
+
+.comic h1 {
+    margin-top: 50px;
+    font-size: 3em;
+    color: #ffffff;
+    letter-spacing: 2.5px;
+}
+
+.comic img {
+    width: 400px;
+    width: 80%;
+    margin-top: 100px;
+    max-width: 1222px;
+}
+
+.nav-text a {
+    margin: 5px;
+    margin-inline: 10px;
+    font-size: 1.1em;
+    padding: 10px;
+}
+
+.nav-text a:hover {
+    background: #727272;
+}
+.nav-space img {
+    height: 25px;
+}
+
+button {
+    font-size: 1.5em;
+    margin-top: 20px;
+    background-color: #a50c77;
+    border-radius: 55px;
+    color: white;
+    padding: 12px;
+    padding-inline: 15px;
+    border: 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9231b3;
+}
+
+.lore {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.lore h5 {
+    margin-top: 15px;
+    font-size: 1.5em;
+    font-weight: 100;
+    color: #ffffff;
+    text-align: center;
+}
+
+.logo  {
+    width: 85px;
+    height: 85px !important;
+}
+
+.lore img {
+    margin-top: 20px;
+    height: 300px;
+    /* animation: updownfast 4s linear infinite; */
+}
+
+.collect-em-all {
+    background-color: #1a1a1a;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.collect-em-all h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 2.5em;
+    font-weight: 100;
+    margin-top: 50px;
+}
+
+.movingimages {
+    flex-direction: row;
+    overflow-x: hidden;
+    
+}
+
+.team-member {
+    margin: 5px;
+}
+
+.movingimages img {
+    /* height: 230px; */
+    min-width: 340px;
+
+    margin: 10px;
+    animation: lefttoright 15s linear infinite;
+    border-radius: 10px;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: #0e0e0e;
+    padding-top: 50px;
+}
+
+footer .flex {
+    gap: 5px;
+}
+
+footer p {
+    color: white;
+}
+
+.copy .flex {
+    flex-direction: column;
+}
+
+.copy img {
+    height: 250px;
+    text-align: center;
+    margin: auto;
+}
+
+.copy {
+    padding: 10px;
+}
+
+.roadmap p {
+    margin-top: 20px;
+}
+
+nav { 
+    background-color: #040404f7;
+}
+.faq {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    max-width: 1300px;
+    background-color: #0f151aa3;
+    FONT-WEIGHT: 500;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.faq h1 {
+    text-align: center;
+}
+
+.faq-section {
+    max-width: 800px;
+    padding: 6px;
+    margin: auto;
+}
+
+.faq-section .faq-header {
+    cursor: pointer;
+    position: relative;
+}
+
+.faq-header::before {
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+.faq-answer {
+    position: relative;
+    /* padding: 10px; */
+    /* background: #fff; */
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+}
+
+.faq-answer p {
+    margin-top: 30px;
+}
+
+/* .faq-section.active {
+    height: 130px;
+    
+} */
+
+.faq-section.active .faq-answer {
+    /* height: 75px; */
+    margin-bottom: 34px;
+}
+
+.faq-section.active .faq-answer {
+    
+    overflow: initial;
+    overflow-y: visible;
+}
+
+.faq-section.active h5 {
+    color: yellow;
+}
+
+.faq-section.active .faq-header::before {
+    content: '-';
+    color: yellow;
+}
+
+.faq h5 {
+    text-align: left;
+    margin-left: 15px;
+    font-size: 1.1em;
+    margin-top: 20px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+
+.copy p {
+    font-size: 0.8em;
+}
+
+@keyframes updownfast {
+    0% {
+        transform: translateY(-5%);
+    }
+    50% {
+        transform: translateY(0%);
+    }
+    100% {
+        transform: translateY(-5%);
+    }
+}
+
+@keyframes lefttoright {
+    0% {
+        transform: translateX(-150%);
+    }
+    50% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(20%);
+    }
+}

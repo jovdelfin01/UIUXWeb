@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/panda1.png" type="image/ico">
+    <title>Panda AI Website</title>
+</head>
+<body>
+    <nav>
+        <div class="flex nav-space space-around flex-wrap">
+            <div class="links">
+                
+                <!-- <a href="#"><img class="logo" src="images/pandalogo.png" alt=""></a> -->
+                
+            </div>
+
+            <div class="nav-text">
+                
+                <a href="#about">About</a>
+                <a href="#lore">Lore</a>
+                <a href="#roadmap">Roadmap</a>
+                <a href="#faq">FAQ</a>
+                
+            </div>
+        </div>
+
+    </nav>
+        <div class="hero">
+            
+        </div>
+
+        <div class="collect-em-all" id="about">
+            
+            <div class="flex movingimages">
+                <img src="images/panda1.png" alt="">
+                <img src="images/panda2.png" alt="">
+                <img src="images/panda3.png" alt="">
+                <img src="images/panda4.png" alt="">
+                <img src="images/panda5.png" alt="">
+
+                <img src="images/panda6.png" alt="">
+
+                <img src="images/panda7.png" alt="">
+            </div>
+
+            <h1>PANDAS ARE GOING WILD</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Nulla euismod, nunc vel mollis accumsan, sem lectus fermentum nisi, vel tempus justo purus 
+                quis ligula. Aenean mollis nisl et est ornare facilisis. Proin at porta ante. Etiam facilisis 
+                ante arcu, quis venenatis neque facilisis a. Cras laoreet dolor vel faucibus interdum.
+            </p>
+        </div>
+
+
+
+        <div class="lore" id="lore">
+            <h1>MEMBERS</h1>
+            <h5>Check out our members</h5>
+
+            <div class="flex flex-row flex-wrap team-members">
+                <div class="team-member">
+                    <img src="images/panda7.png" alt="">
+
+                    <h5>Tom</h5>
+                    <p>Leader</p>
+                </div>
+
+                <div class="team-member">
+                    <img src="images/panda6.png" alt="">
+
+                    <h5>Mike</h5>
+                    <p>Member</p>
+                </div >
+
+                <div class="team-member">
+                    <img src="images/panda3.png" alt="">
+
+                    <h5>Landry</h5>
+                    <p>Member</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="roadmap" id="roadmap">
+            <div class="flex flex-row flex-wrap space-around">
+                <div class="left-roadmap">
+                    <h1>PLANS</h1>
+
+                    <p>Lorem Ipsum</p>
+                    <p>Lorem Ipsum</p>
+                    <p>Lorem Ipsum</p>
+                    <p>Lorem Ipsum</p>
+                    <p>Lorem Ipsum</p>
+                    <p>Lorem Ipsum</p>
+                    
+                </div>
+
+                <div class="right-roadmap">
+                    <img src="images/newhero2.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="faq" id="faq">
+
+            <h1>FAQ</h1>
+
+            <hr>
+            <div class="faq-section">
+                <div class="faq-header">
+                    <h5>Lorem Ipsum</h5>
+                </div>
+                <div class="faq-answer">
+                    <p>TBA</p>
+                </div>
+            </div>
+
+            <div class="faq-section">
+                <div class="faq-header">
+                    <h5>Lorem Ipsum</h5>
+                </div>
+                <div class="faq-answer">
+                    <p>TBA</p>
+                </div>
+            </div>
+
+            <div class="faq-section">
+                <div class="faq-header">
+                    <h5>Lorem Ipsum</h5>
+                </div>
+                <div class="faq-answer">
+                    <p>TBA</p>
+                </div>
+            </div>
+
+            <div class="faq-section">
+                <div class="faq-header">
+                    <h5>Lorem Ipsum</h5>
+                </div>
+                <div class="faq-answer">
+                    <p>TBA</p>
+                </div>
+            </div>
+
+            <div class="faq-section">
+                <div class="faq-header">
+                    <h5>Lorem Ipsum</h5>
+                </div>
+                <div class="faq-answer">
+                    <p>TBA</p>
+                </div>
+            </div>
+            
+            <div class="faq-section">
+                <div class="faq-header">
+                    <h5>Lorem Ipsum</h5>
+                </div>
+                <div class="faq-answer">
+                    <p>TBA</p>
+                </div>
+            </div>
+           
+
+
+        </div>
+        <footer>
+            
+            <div class="copy">
+                <div class="flex">
+                    <img src="images/pandadrink.png" alt="">
+                </div>
+                <p>Panda Corp</p>
+                
+            </div>
+
+        </footer>
+        
+        <script>
+            console.log("got script")
+            const accordion = document.getElementsByClassName('faq-section');
+
+            for (i=0;i<accordion.length; i++) {
+                accordion[i].addEventListener('click', function() {
+                    console.log("clicked");
+                    this.classList.toggle('active');
+                })
+            }
+        </script>
+</body>
+</html>
