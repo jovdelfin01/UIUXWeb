@@ -1,17 +1,21 @@
  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Oswald:wght@400;500;700&display=swap'); 
- @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bangers&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Proza+Libre&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Proza+Libre&display=swap');
+
+
 
 * {
     box-sizing: border-box;
     margin: 0;
     
 
-    font-family: 'Bangers', sans-serif; 
+    font-family: 'Proza Libre', sans-serif;
 
 }
 
 p {
     font-family: 'Inter', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
     max-width: 50vw;
     text-align: center;
     margin: auto;
@@ -218,10 +222,10 @@ button:hover {
     color: #ffffff;
     font-size: 2.5em;
     font-weight: 100;
-    margin-top: 50px;
 }
 
 .movingimages {
+    margin-top: 100px;
     flex-direction: row;
     overflow-x: hidden;
     
@@ -282,7 +286,7 @@ nav {
     padding-top: 40px;
     padding-bottom: 40px;
     max-width: 1300px;
-    background-color: #0f151aa3;
+    background-color: #0f151a;
     FONT-WEIGHT: 500;
     border-radius: 20px;
     margin: auto;
